@@ -1,0 +1,70 @@
+/* body内中央揃え */
+body{
+  text-align: center;
+}
+
+/* セクション毎の余白：70px */
+div{
+  margin: 70px;
+}
+
+/* ファーストビュー 高さ：400px ファーストビュー 文字サイズ:40px*/
+.img {
+  background-image: url("../img/firstview.jpg");
+  height: 400px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.content-img{
+  display: flex;
+  justify-content: center;
+}
+  
+
+/* コンテンツの幅：1000px */
+.content{
+  width: 1000px;
+  margin: 0px auto;
+}
+
+/* ボタンの幅：200px */
+.reset-btm{
+  background-color: lightgray;
+  width: 200px;
+}
+
+/* ボタンの幅：200px */
+.submit-btm{
+  background-color: #66CDAA;
+  color: #fff;
+  width: 200px;
+}
+
+/* フォームの幅：780px */
+.info{
+  display: flex;
+  justify-content: center;
+  width: 780px;
+  margin: 0px auto;
+}
+
+/* ファーストビュー文字サイズ：40px */
+h1{
+  color: #fff;
+  font-size: 40px;
+}
+
+
+h2{
+  font-size: 30px;
+}
+
+h3{
+  line-height: 1.5;
+}
+
+p{
+  line-height: 1.5;
+}
